@@ -12,4 +12,8 @@ class HomeController extends Controller
     public function About(){
         return'About Us';
     }
+    public function contact(){
+        return('Nama : Salma Fadhila <br> Nim : D212011028 <br> Kelas : KA7B <br> Email : salmagm015@gmail.com');
+    }
 }
+
